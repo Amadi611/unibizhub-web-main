@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 850" role="img" aria-labelledby="title desc">
+  <title id="title">Student entrepreneur working online</title>
+  <desc id="desc">A student seller works at a laptop, surrounded by headphones, a phone, a portable drive, and a small plant.</desc>
+  <defs>
+    <clipPath id="scene"><rect width="800" height="850" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#scene)">
+    <rect width="800" height="850" fill="#fff"/>
+    <path d="M800 165c-132 8-245 72-307 180-51 89-49 178-99 254-33 51-92 75-139 128v123h545z" fill="#ff642d"/>
+    <path d="M0 749h800v101H0z" fill="#111d36"/>
+    <path d="M49 740h701l50 27H0z" fill="#1c2944"/>
+
+    <!-- Headphones -->
+    <path d="M62 188a105 105 0 0 1 210 0" fill="none" stroke="#ff642d" stroke-width="22" stroke-linecap="round"/>
+    <path d="M61 176c-17 2-29 16-29 34v78c0 17 11 30 27 34l20-13-4-122zM272 176c17 2 29 16 29 34v78c0 17-11 30-27 34l-20-13 4-122z" fill="#111d36"/>
+    <path d="m60 201 15-4 24 106-16 5zM266 197l16 4-24 107-16-5z" fill="#ff642d"/>
+
+    <!-- Phone -->
+    <rect x="447" y="112" width="263" height="146" rx="17" fill="#111d36"/>
+    <rect x="466" y="130" width="225" height="108" rx="8" fill="#ff642d"/>
+    <circle cx="696" cy="185" r="6" fill="#ff642d"/>
+
+    <!-- Portable drive -->
+    <rect x="112" y="386" width="142" height="199" rx="15" fill="#111d36"/>
+    <path d="M126 399h113v161H126z" fill="#17233c"/>
+    <text x="143" y="438" fill="#ff642d" font-family="Arial, sans-serif" font-size="26" font-weight="700">1TB</text>
+    <path d="M112 550v42c0 11 9 20 20 20h26" fill="none" stroke="#f5f6f8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M157 612h27v14h-27z" fill="#ff642d"/>
+
+    <!-- Plant -->
+    <path d="M91 696c1-71 25-106 56-120-3 42-12 76-33 106 26-55 56-79 91-78-14 43-43 73-89 90 41-25 79-30 111-16-24 32-65 46-123 41z" fill="#111d36"/>
+    <path d="M102 692h139l-11 51H113z" fill="#ff642d"/>
+    <path d="M110 706h123M114 718h121" stroke="#111d36" stroke-width="5"/>
+
+    <!-- Seller hair and face -->
+    <path d="M510 420c-4-77 39-128 105-128 72 0 111 48 105 132l-19 93H530z" fill="#111d36"/>
+    <path d="M549 380c0-57 29-87 68-87 49 0 76 31 76 88v66c0 53-32 91-73 91-40 0-71-37-71-91z" fill="#ffd8c3"/>
+    <path d="M541 391c17-28 35-54 55-77 30 26 75 40 111 40l-14-51-93-25-73 46-19 77z" fill="#111d36"/>
+    <path d="M594 420h-41c-12 0-21 10-21 22v18c0 12 9 21 21 21h41c12 0 21-9 21-21v-18c0-12-9-22-21-22zM665 420h-41c-12 0-21 10-21 22v18c0 12 9 21 21 21h41c12 0 21-9 21-21v-18c0-12-9-22-21-22z" fill="#fff" stroke="#111d36" stroke-width="8"/>
+    <path d="M615 437h10" stroke="#111d36" stroke-width="8"/>
+    <circle cx="577" cy="443" r="6" fill="#111d36"/>
+    <circle cx="645" cy="443" r="6" fill="#111d36"/>
+    <path d="m611 449-7 28h15M592 499q21 14 43 0" fill="none" stroke="#111d36" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Shirt and jacket -->
+    <path d="M531 526q81-33 159 0l47 150H491z" fill="#111d36"/>
+    <path d="m585 520 29 39 31-39 26 18-28 83h-59l-29-83z" fill="#fff"/>
+    <path d="m605 558 10 18 10-18-4 73h-12z" fill="#ff642d"/>
+    <path d="M515 574c-34 24-56 56-67 101l47 17 41-88zM696 574c34 24 56 56 67 101l-47 17-41-88z" fill="#111d36"/>
+
+    <!-- Laptop -->
+    <path d="M431 662h358v139H431z" fill="#111d36"/>
+    <path d="M446 677h328v108H446z" fill="#182540"/>
+    <circle cx="610" cy="733" r="28" fill="#ff642d"/>
+    <path d="M397 799h424l-25 30H421z" fill="#101a30"/>
+    <path d="M430 662h359" stroke="#ff642d" stroke-width="4"/>
+  </g>
+</svg>
