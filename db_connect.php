@@ -5,17 +5,21 @@
  */
 
 // Database Configuration
-define('DB_HOST', 'localhost');
+define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
 define('DB_NAME', 'unibizhub');
 define('DB_USER', 'root');
 define('DB_PASS', '');
+define('DB_PORT', (int) (getenv('DB_PORT') ?: 3306));
 
-// Create database connection
-$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, DB_PORT);
+} catch (mysqli_sql_exception $exception) {
+    error_log('UNIBIZHUB database connection failed: ' . $exception->getMessage());
+    http_response_code(500);
+    exit(
+        'Unable to connect to the UNIBIZHUB database. Start MySQL in the XAMPP Control Panel, '
+        . 'confirm the database settings, and import database.sql if the database has not been created.'
+    );
 }
 
 // Set charset to utf8mb4 for better Unicode support
